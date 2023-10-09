@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kenia&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  
+  background: radial-gradient(#b472fffa, #663ba6); 
+}
+header{
+  font-family: Sedgwick Ave Display, cursive ;
+  padding: 15px;
+  background: linear-gradient(#240136, #9000fedd );
+  font-size: large;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 2px 6px 18px 0px #4cfadd;
+}
+header img{
+  width: 175px;
+  height: 175px;
+  border: 3px; 
+  border-radius: 20px;
+  box-shadow: 2px 4px 18px 0px #4cfadd;
+  
+
+}
+
+header nav ul { 
+  list-style: none;
+  text-transform: uppercase;
+  color: aliceblue;
+}
+
+header nav li:hover {
+  background-color: #6c02ffa3;
+  color: #57f3d9;
+  border-radius: 50px;
+  transition: 1s;
+  border: 4px;
+  box-shadow: 4px 6px 18px 0px #57f3d9;
+    }
+
+header nav li{
+  display: inline-block;
+  padding: 35px;
+ 
+} 
+
+main h1 {
+  text-align: center;
+  font-family: Sedgwick Ave Display, cursive;
+}
+main h2 {
+  text-align: center;
+  font-family: Sedgwick Ave Display, cursive;
+}
+
+.Informacoes {
+  font-family: Kenia, cursive;
+  display: flex;
+  padding: 15px;
+}
+.Informacoes img {
+  padding: 0 20px;
+}
+dl{
+ 
+}
